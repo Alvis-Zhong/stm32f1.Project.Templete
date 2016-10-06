@@ -785,36 +785,36 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x00000130   Data   RO            3    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x00000000   Code   RO         3183  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x00000004   Code   RO         3186    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x00000004   Code   RO         3189    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x00000000   Code   RO         3191    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x00000000   Code   RO         3193    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x00000008   Code   RO         3194    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x00000000   Code   RO         3196    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x00000000   Code   RO         3198    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x00000004   Code   RO         3187    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000130   0x00000000   Code   RO         3180  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x00000004   Code   RO         3183    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x00000004   Code   RO         3186    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x00000000   Code   RO         3188    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x00000000   Code   RO         3190    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x00000008   Code   RO         3191    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x00000000   Code   RO         3193    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x00000000   Code   RO         3195    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x00000004   Code   RO         3184    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x00000024   Code   RO            4    .text               startup_stm32f10x_hd.o
-    0x08000168   0x00000024   Code   RO         3200    .text               mc_w.l(init.o)
-    0x0800018c   0x00000004   Code   RO         3120    i.BusFault_Handler  stm32f10x_it.o
-    0x08000190   0x00000002   Code   RO         3121    i.DebugMon_Handler  stm32f10x_it.o
-    0x08000192   0x00000004   Code   RO         3122    i.HardFault_Handler  stm32f10x_it.o
-    0x08000196   0x00000004   Code   RO         3123    i.MemManage_Handler  stm32f10x_it.o
-    0x0800019a   0x00000002   Code   RO         3124    i.NMI_Handler       stm32f10x_it.o
-    0x0800019c   0x00000002   Code   RO         3125    i.PendSV_Handler    stm32f10x_it.o
-    0x0800019e   0x00000002   Code   RO         3126    i.SVC_Handler       stm32f10x_it.o
+    0x08000168   0x00000024   Code   RO         3197    .text               mc_w.l(init.o)
+    0x0800018c   0x00000004   Code   RO         3117    i.BusFault_Handler  stm32f10x_it.o
+    0x08000190   0x00000002   Code   RO         3118    i.DebugMon_Handler  stm32f10x_it.o
+    0x08000192   0x00000004   Code   RO         3119    i.HardFault_Handler  stm32f10x_it.o
+    0x08000196   0x00000004   Code   RO         3120    i.MemManage_Handler  stm32f10x_it.o
+    0x0800019a   0x00000002   Code   RO         3121    i.NMI_Handler       stm32f10x_it.o
+    0x0800019c   0x00000002   Code   RO         3122    i.PendSV_Handler    stm32f10x_it.o
+    0x0800019e   0x00000002   Code   RO         3123    i.SVC_Handler       stm32f10x_it.o
     0x080001a0   0x00000008   Code   RO           24    i.SetSysClock       system_stm32f10x.o
     0x080001a8   0x000000e0   Code   RO           25    i.SetSysClockTo72   system_stm32f10x.o
-    0x08000288   0x00000002   Code   RO         3127    i.SysTick_Handler   stm32f10x_it.o
+    0x08000288   0x00000002   Code   RO         3124    i.SysTick_Handler   stm32f10x_it.o
     0x0800028a   0x00000002   PAD
     0x0800028c   0x00000060   Code   RO           27    i.SystemInit        system_stm32f10x.o
-    0x080002ec   0x00000004   Code   RO         3128    i.UsageFault_Handler  stm32f10x_it.o
-    0x080002f0   0x0000000e   Code   RO         3204    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x080002fe   0x00000002   Code   RO         3205    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08000300   0x0000000e   Code   RO         3206    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x080002ec   0x00000004   Code   RO         3125    i.UsageFault_Handler  stm32f10x_it.o
+    0x080002f0   0x0000000e   Code   RO         3201    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x080002fe   0x00000002   Code   RO         3202    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08000300   0x0000000e   Code   RO         3203    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x0800030e   0x00000004   Code   RO         3108    i.main              main.o
     0x08000312   0x00000002   PAD
-    0x08000314   0x00000010   Data   RO         3202    Region$$Table       anon$$obj.o
+    0x08000314   0x00000010   Data   RO         3199    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000400, Max: 0x00010000, ABSOLUTE)
